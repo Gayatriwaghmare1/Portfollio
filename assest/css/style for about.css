@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imageAboutPage {
+    width: 20%;
+    height: 200px;
+    margin: 20px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    box-shadow: rgba(0, 269, 219, 0.25) 0px -21px 139px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 200, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 31px 15px, rgba(2, 247, 185, -0.91) 0px -3px 18px;
+}
+.imageAboutPage:hover{
+border: 5px solid cyan;
+box-shadow: 1px wheat;
+}
+body{
+    background-color: black;
+    color: white;
+}
+body:hover{
+    background-color: black;
+    color: white;
+    margin: 5px;
+    margin-left: 10%;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 100px !important;
+}
+.navbar, .logo h1{
+    color: white;
+    cursor: pointer;
+}
+.navbar, .menu{
+    display: flex;
+    column-gap: 30px;
+}
+
+.navbar, .menu a{
+    color: white;
+    text-decoration: none !important;
+    padding: 10px;  
+}
+
+.navbar, .menu .about{
+    color: cyan;
+}
+
+.menu a:hover{
+    border: 1px solid cyan;
+}
+#about h1{
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 500;
+    padding: 20px;
+    margin-top: 25px;
+    text-align: center;
+}
+h1:hover{
+    margin: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px solid cyan;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    box-shadow: rgba(0, 269, 219, 0.25) 0px -21px 139px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 200, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 31px 15px, rgba(2, 247, 185, -0.91) 0px -3px 18px;
+}
+#about .hi{
+    margin-top: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+color: rgb(248, 137, 174);
+}
+.hi:hover{
+    padding: 5px;
+    margin: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    box-shadow: rgba(0, 269, 219, 0.25) 0px -21px 139px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 200, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 31px 15px, rgba(2, 247, 185, -0.91) 0px -3px 18px;
+}
+div ul li{
+    font-size: larger;
+    margin-left: 30%;
+    padding: 10px;
+    list-style: none;
+    color: cyan;
+}
+div p{
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    padding-top: 15px;
+}

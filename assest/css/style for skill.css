@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+body:hover{
+    background-color: black;
+    color: white;
+    margin: 5px;
+    margin-left: 10%;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 100px !important;
+}
+.navbar, .logo h1{
+    color: white;
+    cursor: pointer;
+}
+.navbar, .menu{
+    display: flex;
+    column-gap: 30px;
+}
+
+.navbar, .menu a{
+    color: white;
+    text-decoration: none !important;
+    padding: 10px;  
+}
+
+.navbar, .menu .skill{
+    color: cyan;
+}
+
+.menu a:hover{
+    border: 1px solid cyan;
+}
+h1{
+    padding: 30px;
+    text-align: center;
+    
+}
+table { 
+    width: 60%;
+    padding: 20px;
+    margin-left: 20%;
+    text-align: center;
+    background-color:#09090a;
+    border: 1px solid;
+    animation-direction: normal;
+    border: 2px solid cyan;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    box-shadow: rgba(0, 269, 219, 0.25) 0px -21px 139px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 200, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 31px 15px, rgba(2, 247, 185, -0.91) 0px -3px 18px;
+}
+
+table:hover{
+        border: 1px solid cyan;
+}
+tr {
+    padding: 20px;
+    text-align: justify;
+    background-color:black;
+    outline: #fff;
+    border: solid 2px;
+}
+tr output{
+    float: right;
+}
+input[type="range"]{
+    width: 100%;
+    padding: 10px;
+    accent-color: blue;
+}
+input [type="range"]:hover{
+    padding: 10px;
+    border: 1px solid cyan;
+}
+h1:hover{
+    margin: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: 2px solid cyan;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    box-shadow: rgba(0, 269, 219, 0.25) 0px -21px 139px, rgba(0, 255, 255, 0.12) 0px -12px 30px, rgba(0, 255, 200, 0.12) 0px 4px 6px, rgba(8, 231, 213, 0.17) 0px 31px 15px, rgba(2, 247, 185, -0.91) 0px -3px 18px;
+}
